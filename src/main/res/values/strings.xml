@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DP PEO</string>
+    <string name="title_ticket_detail">Ticket Detail</string>
+    <string name="title_activity_search_activity">Search Tickets</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_search_by">Search By</string>
+    <string name="title_search">Get Tickets</string>
+    <string name="title_search_hint">Enter your search value</string>
+    <string name="title_searching">Searching</string>
+    <string name="title_please_wait">Please wait</string>
+    <string name="title_no_connection">No Connection</string>
+    <string name="title_booking_id">Booking Id</string>
+    <string name="title_vehicle_no">Vehicle</string>
+    <string name="title_from_time">Start</string>
+    <string name="title_to_time">End</string>
+    <string name="title_booking_type">Booking Type</string>
+    <string name="title_parking_area_code">Location</string>
+    <string name="title_remaining_time">00D:00H:00M</string>
+    <string name="title_finished_ticket">FINISHED</string>
+    <string name="title_no_tickets">No tickets found with given search values</string>
+    <string name="title_4hrs">4</string>
+    <string name="title_8hrs">8</string>
+    <string name="title_2hrs">2</string>
+    <string name="title_elapsed_by">Elapsed By(Hours)</string>
+    <string name="title_normal_booking">Normal</string>
+    <string name="title_gc_booking">GC</string>
+    <string name="title_both">Both</string>
+    <string name="title_app_crash">Something went wrong !!!</string>
+    <string name="title_list_tickets">Tickets List</string>
+
+
+    <string-array name="search_by_options_array">
+        <item>Location</item>
+        <item>Vehicle</item>
+        <item>Booking Id</item>
+    </string-array>
+
+</resources>

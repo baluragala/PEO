@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dpparking.androidapp.peo" >
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_dinparkering_modern"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_dinparkering_modern"
+        android:theme="@style/CustomActionBarTheme" >
+
+
+
+        <activity
+            android:name="dpparking.androidapp.peo.TicketListActivity"
+            android:label="@string/title_list_tickets" >
+          <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+       <!-- <activity
+            android:name="dpparking.androidapp.peo.TicketDetailActivity"
+            android:label="@string/title_ticket_detail"
+            android:parentActivityName="dpparking.androidapp.peo.TicketListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dpparking.androidapp.mobileparking.TicketListActivity" />
+        </activity>-->
+        <activity
+            android:name="dpparking.androidapp.peo.SearchActivity"
+            android:label="@string/title_activity_search_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

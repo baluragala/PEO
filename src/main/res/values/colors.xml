@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_thick_grey">#ff323232</color>
+    <color name="color_blue">#ff1ba0ff</color>
+    <color name="body_background">#D6D6DE</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="appBackground">#ffe3e3e3</color>
+    <color name="color_light_grey">#ffffffff</color>
+</resources>
